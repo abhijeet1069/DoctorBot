@@ -1,0 +1,24 @@
+<configuration>    
+     <!-- File Appender with RollingPolicy -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- Current log file -->
+        <file>logs/app.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- %d = date, %i = index -->
+            <!-- Example: logs/app.2025-05-13.0.log.zip -->
+            <fileNamePattern>logs/app.%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <maxFileSize>5MB</maxFileSize>
+            <maxHistory>30</maxHistory> <!-- Retain logs for 30 days -->
+            <totalSizeCap>1GB</totalSizeCap> <!-- Optional cap -->
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5level [%thread] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="DEBUG">
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>
