@@ -1,0 +1,25 @@
+{
+  "faq": [
+    {
+      "topic": "working_hours",
+      "answer": {
+        "text": "Our clinic is open from 9 AM to 6 PM, Monday to Saturday"
+      }
+    },
+    {
+      "topic": "doctor",
+      "answer": {
+        "list": [
+          "Dr Ravi, Cardiologist, Wednesday and Thursday 10:00am to 6:00pm",
+          "Dr Mehta, Dentist, Monday 10:00am to 1:00pm"
+        ]
+      }
+    },
+    {
+      "topic": "fees",
+      "answer": {
+        "text": "The consultation fee is ₹500 for general consultation. Charges may vary based on the specialist."
+      }
+    }
+  ]
+}

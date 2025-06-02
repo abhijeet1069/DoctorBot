@@ -1,0 +1,51 @@
+02-06-2025 09:58:39.845 INFO  [main] - FAQServiceTest.setup()         : ======= Starting FAQServiceTest in DoctorBot Test Suite =======
+02-06-2025 09:58:39.954 ERROR [main] - FAQServiceTest.testFAQServiceWithNoWorkingHoursTag() : [TagNotFoundException] Tag 'working_hours' not found in bad-faq-with-noworkinghours.json
+02-06-2025 09:58:39.966 ERROR [main] - FAQServiceTest.testFAQServiceWhenNoFileHasSyntaxErrors() : [ConfigLoadException] Unrecognized field "topic12" (class com.servion.doctorBot.faq.pojo.FAQEntry), not marked as ignorable (2 known properties: "answer", "topic"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 4, column: 19] (through reference chain: com.servion.doctorBot.faq.pojo.FAQConfig["faq"]->java.util.ArrayList[0]->com.servion.doctorBot.faq.pojo.FAQEntry["topic12"])
+02-06-2025 09:58:39.971 ERROR [main] - FAQServiceTest.testFAQServiceWhenNoFilePresent() : [ConfigLoadException] File not found: nonexistent.json
+02-06-2025 09:58:51.667 INFO  [restartedMain] - Starting App using Java 21.0.3 with PID 85786 (/Users/satyam/Personal/Development/DoctorBot/DoctorBot/target/classes started by satyam in /Users/satyam/Personal/Development/DoctorBot/DoctorBot)
+02-06-2025 09:58:51.668 INFO  [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+02-06-2025 09:58:52.098 INFO  [restartedMain] - Initializing ProtocolHandler ["http-nio-8080"]
+02-06-2025 09:58:52.099 INFO  [restartedMain] - Starting service [Tomcat]
+02-06-2025 09:58:52.099 INFO  [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+02-06-2025 09:58:52.117 INFO  [restartedMain] - Initializing Spring embedded WebApplicationContext
+02-06-2025 09:58:52.174 INFO  [restartedMain] - FAQController.<init>()         : Controller initialised: /faq/working-hours
+02-06-2025 09:58:52.319 INFO  [restartedMain] - Starting ProtocolHandler ["http-nio-8080"]
+02-06-2025 09:58:52.332 INFO  [restartedMain] - Started App in 0.882 seconds (process running for 1.237)
+02-06-2025 10:00:09.624 INFO  [http-nio-8080-exec-1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-06-2025 10:00:09.647 INFO  [http-nio-8080-exec-1] - FAQController.getFee()         : GET /faq/fees
+02-06-2025 10:06:26.175 INFO  [main] - FAQServiceTest.setup()         : ======= Starting FAQServiceTest in DoctorBot Test Suite =======
+02-06-2025 10:06:26.265 ERROR [main] - FAQServiceTest.testFAQServiceWithNoWorkingHoursTag() : [TagNotFoundException] Tag 'working_hours' not found in bad-faq-with-noworkinghours.json
+02-06-2025 10:06:26.278 ERROR [main] - FAQServiceTest.testFAQServiceWhenNoFileHasSyntaxErrors() : [ConfigLoadException] Unrecognized field "topic12" (class com.servion.doctorBot.faq.pojo.FAQEntry), not marked as ignorable (2 known properties: "answer", "topic"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 4, column: 19] (through reference chain: com.servion.doctorBot.faq.pojo.FAQConfig["faq"]->java.util.ArrayList[0]->com.servion.doctorBot.faq.pojo.FAQEntry["topic12"])
+02-06-2025 10:06:26.281 ERROR [main] - FAQServiceTest.testFAQServiceWhenNoFilePresent() : [ConfigLoadException] File not found: nonexistent.json
+02-06-2025 10:06:28.091 INFO  [main] - Starting App v1.0.0 using Java 21.0.3 with PID 86431 (/Users/satyam/Personal/Development/DoctorBot/DoctorBot/target/DoctorBot-1.0.0.jar started by satyam in /Users/satyam/Personal/Development/DoctorBot/DoctorBot)
+02-06-2025 10:06:28.092 INFO  [main] - No active profile set, falling back to 1 default profile: "default"
+02-06-2025 10:06:28.481 INFO  [main] - Initializing ProtocolHandler ["http-nio-8080"]
+02-06-2025 10:06:28.482 INFO  [main] - Starting service [Tomcat]
+02-06-2025 10:06:28.482 INFO  [main] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+02-06-2025 10:06:28.497 INFO  [main] - Initializing Spring embedded WebApplicationContext
+02-06-2025 10:06:28.553 INFO  [main] - FAQController.<init>()         : Controller initialised: /faq/working-hours
+02-06-2025 10:06:28.693 INFO  [main] - Starting ProtocolHandler ["http-nio-8080"]
+02-06-2025 10:06:28.713 INFO  [main] - Started App in 0.848 seconds (process running for 1.193)
+02-06-2025 10:08:20.497 INFO  [main] - FAQServiceTest.setup()         : ======= Starting FAQServiceTest in DoctorBot Test Suite =======
+02-06-2025 10:08:20.588 ERROR [main] - FAQServiceTest.testFAQServiceWithNoWorkingHoursTag() : [TagNotFoundException] Tag 'working_hours' not found in bad-faq-with-noworkinghours.json
+02-06-2025 10:08:20.601 ERROR [main] - FAQServiceTest.testFAQServiceWhenNoFileHasSyntaxErrors() : [ConfigLoadException] Unrecognized field "topic12" (class com.servion.doctorBot.faq.pojo.FAQEntry), not marked as ignorable (2 known properties: "answer", "topic"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 4, column: 19] (through reference chain: com.servion.doctorBot.faq.pojo.FAQConfig["faq"]->java.util.ArrayList[0]->com.servion.doctorBot.faq.pojo.FAQEntry["topic12"])
+02-06-2025 10:08:20.604 ERROR [main] - FAQServiceTest.testFAQServiceWhenNoFilePresent() : [ConfigLoadException] File not found: nonexistent.json
+02-06-2025 10:08:21.552 INFO  [main] - Starting App v1.0.0 using Java 21.0.3 with PID 86927 (/Users/satyam/Personal/Development/DoctorBot/DoctorBot/target/DoctorBot-1.0.0.jar started by satyam in /Users/satyam/Personal/Development/DoctorBot/DoctorBot)
+02-06-2025 10:08:21.553 INFO  [main] - No active profile set, falling back to 1 default profile: "default"
+02-06-2025 10:08:21.988 INFO  [main] - Initializing ProtocolHandler ["http-nio-8080"]
+02-06-2025 10:08:21.989 INFO  [main] - Starting service [Tomcat]
+02-06-2025 10:08:21.989 INFO  [main] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+02-06-2025 10:08:22.007 INFO  [main] - Initializing Spring embedded WebApplicationContext
+02-06-2025 10:08:22.071 INFO  [main] - FAQController.<init>()         : Controller initialised: /faq/working-hours
+02-06-2025 10:08:22.217 INFO  [main] - Starting ProtocolHandler ["http-nio-8080"]
+02-06-2025 10:08:22.236 INFO  [main] - Started App in 0.906 seconds (process running for 1.254)
+02-06-2025 10:08:35.949 INFO  [http-nio-8080-exec-1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-06-2025 10:08:35.969 INFO  [http-nio-8080-exec-1] - FAQController.getFee()         : GET /faq/fees
+02-06-2025 10:08:36.899 INFO  [http-nio-8080-exec-3] - FAQController.getFee()         : GET /faq/fees
+02-06-2025 10:09:18.554 WARN  [http-nio-8080-exec-4] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+02-06-2025 10:09:43.848 INFO  [http-nio-8080-exec-6] - FAQController.getFee()         : GET /faq/fees
+02-06-2025 10:09:45.731 INFO  [http-nio-8080-exec-7] - FAQController.getFee()         : GET /faq/fees
+02-06-2025 10:09:53.363 INFO  [http-nio-8080-exec-8] - FAQController.getFee()         : GET /faq/fees
